@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-22T15:44:07 IST" name="Default suite" finished-at="2023-08-22T15:52:23 IST" duration-ms="495988">
+    <groups>
+    </groups>
+    <test started-at="2023-08-22T15:44:07 IST" name="Default test" finished-at="2023-08-22T15:52:23 IST" duration-ms="495988">
+      <class name="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg">
+        <test-method signature="logindatabuck()[pri:0, instance:api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg@248e319b]" started-at="2023-08-22T15:44:07 IST" name="logindatabuck" finished-at="2023-08-22T15:44:10 IST" duration-ms="3377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindatabuck -->
+        <test-method signature="search_validation()[pri:0, instance:api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg@248e319b]" started-at="2023-08-22T15:44:10 IST" name="search_validation" finished-at="2023-08-22T15:44:13 IST" depends-on-methods="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg.logindatabuck" duration-ms="2729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_validation -->
+        <test-method signature="activate_check_null()[pri:0, instance:api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg@248e319b]" started-at="2023-08-22T15:44:13 IST" name="activate_check_null" finished-at="2023-08-22T15:44:17 IST" depends-on-methods="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg.search_validation" duration-ms="3523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activate_check_null -->
+        <test-method signature="activate_check_dup()[pri:0, instance:api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg@248e319b]" started-at="2023-08-22T15:44:17 IST" name="activate_check_dup" finished-at="2023-08-22T15:44:20 IST" depends-on-methods="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg.activate_check_null" duration-ms="3500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activate_check_dup -->
+        <test-method signature="activate_check_date()[pri:0, instance:api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg@248e319b]" started-at="2023-08-22T15:44:20 IST" name="activate_check_date" finished-at="2023-08-22T15:44:24 IST" depends-on-methods="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg.activate_check_dup" duration-ms="3513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activate_check_date -->
+        <test-method signature="activate_check_VA()[pri:0, instance:api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg@248e319b]" started-at="2023-08-22T15:44:24 IST" name="activate_check_VA" finished-at="2023-08-22T15:44:27 IST" depends-on-methods="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg.activate_check_date" duration-ms="3567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activate_check_VA -->
+        <test-method signature="activate_check_Dis()[pri:0, instance:api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg@248e319b]" started-at="2023-08-22T15:44:27 IST" name="activate_check_Dis" finished-at="2023-08-22T15:44:31 IST" depends-on-methods="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg.activate_check_VA" duration-ms="3496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activate_check_Dis -->
+        <test-method signature="approve_status()[pri:0, instance:api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg@248e319b]" started-at="2023-08-22T15:44:31 IST" name="approve_status" finished-at="2023-08-22T15:44:32 IST" depends-on-methods="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg.activate_check_Dis" duration-ms="1536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approve_status -->
+        <test-method signature="run_validation()[pri:0, instance:api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg@248e319b]" started-at="2023-08-22T15:44:32 IST" name="run_validation" finished-at="2023-08-22T15:47:23 IST" depends-on-methods="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg.approve_status" duration-ms="170539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_validation -->
+        <test-method signature="get_results_null()[pri:0, instance:api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg@248e319b]" started-at="2023-08-22T15:47:23 IST" name="get_results_null" finished-at="2023-08-22T15:52:01 IST" depends-on-methods="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg.run_validation" duration-ms="278531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_results_null -->
+        <test-method signature="get_results_dup()[pri:0, instance:api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg@248e319b]" started-at="2023-08-22T15:52:01 IST" name="get_results_dup" finished-at="2023-08-22T15:52:04 IST" depends-on-methods="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg.get_results_null" duration-ms="2891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_results_dup -->
+        <test-method signature="get_results_date()[pri:0, instance:api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg@248e319b]" started-at="2023-08-22T15:52:04 IST" name="get_results_date" finished-at="2023-08-22T15:52:07 IST" depends-on-methods="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg.get_results_dup" duration-ms="2625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_results_date -->
+        <test-method signature="get_results_VA()[pri:0, instance:api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg@248e319b]" started-at="2023-08-22T15:52:07 IST" name="get_results_VA" finished-at="2023-08-22T15:52:15 IST" depends-on-methods="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg.get_results_date" duration-ms="7712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_results_VA -->
+        <test-method signature="get_results_dis()[pri:0, instance:api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg@248e319b]" started-at="2023-08-22T15:52:15 IST" name="get_results_dis" finished-at="2023-08-22T15:52:23 IST" depends-on-methods="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg.get_results_VA" duration-ms="8326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_results_dis -->
+      </class> <!-- api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
