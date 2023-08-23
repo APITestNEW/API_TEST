@@ -4,12 +4,12 @@
   <test thread-count="5" name="Test">
     <classes>
   							  <!-- Sanity Flow -->
- <!--     <class name="api_tests.FE_test_Bulk_Data_Drift"/> -->
-   		  <class name="api_tests.FE_Sanity_test_Bulk_Data_Drift"/> 
- <!--     <class name="api_tests.FE_Sanity_test_bulk_flow_microseg_data_drift"/> -->
- <!--     <class name="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg"/> -->
- <!--     <class name="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_1"/> -->
- <!--     <class name="api_tests.FE_Sanity_test_bulk_multiple_checks_2"/> -->
+      <class name="api_tests.FE_test_Bulk_Data_Drift"/>
+      <class name="api_tests.FE_Sanity_test_Bulk_Data_Drift"/> 
+      <class name="api_tests.FE_Sanity_test_bulk_flow_microseg_data_drift"/> 
+     <class name="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_microseg"/> 
+    <class name="api_tests.FE_Sanity_test_bulk_flow_multiple_checks_1"/> 
+     <class name="api_tests.FE_Sanity_test_bulk_multiple_checks_2"/> 
  
  
  
