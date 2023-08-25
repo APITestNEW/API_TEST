@@ -16,9 +16,9 @@
  
 								 <!-- Regression Flow -->
 <!--    <class name="api_tests.FE_test_bulk_flow_multiple_checks_microseg"/> -->
- <!--     <class name="api_tests.FE_test_bulk_multiple_checks_2"/> -->
+      <class name="api_tests.FE_test_bulk_multiple_checks_2"/> 
  <!--     <class name="api_tests.FE_bulk_flow_automatic_validation_data_drift_chk"/> -->
-   <class name="api_tests.FE_test_bulk_flow_multiple_checks_1"/> 
+          <class name="api_tests.FE_test_bulk_flow_multiple_checks_1"/> 
  <!--     <class name="api_tests.FE_test_bulk_flow_micro_seg_data_drift_chk"/>  -->
     </classes>
   </test> <!-- Test -->
